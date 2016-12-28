@@ -8,10 +8,10 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : zswood's page
-tagline: read the fucking source code, share change the world!
+title : Home
+tagline: just blog!
 author :
-  name : zhensong li
+  name : zswood
   email : lizhensong92@163.com
   github : zswood
 
