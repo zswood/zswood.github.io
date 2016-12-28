@@ -1,0 +1,2 @@
+(eg EINTR)
+EINPROGRESS
