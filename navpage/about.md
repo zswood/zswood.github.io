@@ -10,7 +10,7 @@ tagline: be a gentleman
 <ul class="lead">
 <li>This page service is provided to record some notes or something else. </li>
 <li>Please indicate the source when you reproduced.</li>
-<li>Please contact me if you find some wrong in my articles.</li>
+<li>Please contact me if you find some incorrect in my articles.</li>
 </ul>
 
 
