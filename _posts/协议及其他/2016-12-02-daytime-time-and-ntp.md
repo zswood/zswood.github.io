@@ -1,6 +1,6 @@
 ---
 layout: post
-category : protocol and other
+category : protocol etc
 title:	"网络时间协议ntp相关"
 tagline: ""
 tags : [daytime, time protocol, ntp, network time protocol, 时间协议]

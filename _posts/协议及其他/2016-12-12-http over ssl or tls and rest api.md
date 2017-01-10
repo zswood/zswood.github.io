@@ -1,6 +1,6 @@
 ---
 layout: post
-category : protocol and other
+category : protocol etc
 title:	"http https and rest api"
 tagline: ""
 tags : [http, https, ssl, tls, rest, http协议版本, websocket]
