@@ -8,9 +8,9 @@ tagline: be a gentleman
 </div>
 
 <ul class="lead">
-<li>This page service is provided to record some notes or something else. </li>
-<li>Please indicate the source when you reproduced.</li>
-<li>Please contact me if you find some incorrect in my articles.</li>
+<li>该站点用于记录个人在工作学习中的部分笔记及其他信息。</li>
+<li>若发现异常或不当之处，请指正。 </li>
+<li>转载请注明出处</li>
 </ul>
 
 
