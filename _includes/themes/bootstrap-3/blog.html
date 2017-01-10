@@ -33,7 +33,7 @@
   <!-- blog-sidebar--> <!--按时间排序展示所有post索引-->
   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
     <div class="sidebar-module">
-      <h4>Archives</h4>
+      <h4>Blog List</h4>
         <ol class="list-unstyled">
 		  {% for post in site.posts %}
 			<li><span>{{ post.date | date_to_string }}</span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
