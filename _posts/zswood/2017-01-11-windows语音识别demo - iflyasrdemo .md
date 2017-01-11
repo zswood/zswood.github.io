@@ -1,7 +1,7 @@
 ---
 layout: post
 category : zswood prj
-title:	"windows语音识别demo - iflyasrdemo"
+title:	"windows语音识别demo"
 tagline: ""
 tags : [iflytek, asr, windows]
 ---
