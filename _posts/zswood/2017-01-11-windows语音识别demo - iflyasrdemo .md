@@ -15,3 +15,21 @@ tags : [iflytek, asr, windows]
   
 
 #### *Abstract*
+
+0. ilfytek speech api(include iat and )
+
+1. windows lib load api
+	i. 涉及的windows api;
+	ii. dll load api;
+	iii. audio record;
+
+2. windows record api
+	i. 录音接口
+	ii.播放/回放接口
+	
+3. Character encoding
+字符编码起源,定义,检测及转换
+
+3. 数据格式校验及解析(json,xml)
+
+4. windows 图形界面编程
