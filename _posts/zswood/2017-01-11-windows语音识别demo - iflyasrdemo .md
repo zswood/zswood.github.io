@@ -16,7 +16,7 @@ tags : [iflytek, asr, windows]
 
 #### *Abstract*
 
-0. ilfytek speech api(include iat and )
+0. ilfytek speech api(include iat, its and tts)
 
 1. windows lib load api
 	i. 涉及的windows api;
@@ -29,7 +29,18 @@ tags : [iflytek, asr, windows]
 	
 3. Character encoding
 字符编码起源,定义,检测及转换
+utf8, gb2312, unicode, 
+/*windows*/
+MultiByteToWideChar()
+WideCharToMultiByte()
+
+/*linux*/
+iconv_open()
+iconv()
+iconv_close()
 
 3. 数据格式校验及解析(json,xml)
 
-4. windows 图形界面编程
+4. 配置类+日志类;
+
+5. windows 图形界面编程

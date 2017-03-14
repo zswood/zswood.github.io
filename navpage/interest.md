@@ -1,5 +1,5 @@
 ---
-layout: daily
+layout: interest
 title: Mr.wood
 tagline: be a gentleman
 ---
