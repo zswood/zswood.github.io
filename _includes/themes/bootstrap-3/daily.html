@@ -1,0 +1,50 @@
+<!--
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small><i>{{ page.tagline }}</i></small>{% endif %}</h1>
+</div>
+-->
+
+<div class="blog-header">
+        <h1 class="blog-title"></h1>
+        <p class="lead blog-description"></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-8 blog-main">
+	<!--	
+          <div class="blog-post">
+            <h2 class="blog-post-title">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+          </div>
+	-->	 <!-- /.blog-post -->
+	<!--	
+          <nav>
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="#">Next</a></li>
+            </ul>
+          </nav>
+	-->	
+		
+	{{content}}
+	
+	<ul class="tag_box inline">
+	  {% assign categories_list = site.categories %}
+	  {% include JB/categories_list %}
+	</ul>
+
+  </div><!-- /.blog-main -->
+
+  <!-- blog-sidebar--> <!--按时间排序展示所有post索引-->
+  <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    <div class="sidebar-module">
+      <h4>Daily List</h4>
+        <ol class="list-unstyled">
+		  {% for daily in site.dailys %}
+			<li><span>{{ daily.date | date_to_string }}</span> <a href="{{ BASE_PATH }}{{ daily.url }}">{{ daily.title }}</a></li>
+		  {% endfor %}
+        </ol>
+    </div>
+  </div><!-- /.blog-sidebar -->
+  
+</div>
