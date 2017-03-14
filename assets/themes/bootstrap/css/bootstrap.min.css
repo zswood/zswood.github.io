@@ -4593,7 +4593,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .navbar-brand {
 	float: left;
 	height: 50px;
-	padding: 15px 15px;
+	padding: 15px 20px 15px 20px;
 	font-size: 18px;
 	line-height: 20px
 }
